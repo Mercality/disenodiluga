@@ -145,6 +145,10 @@ header .nav > li > a:hover, .nav > li > a:focus {
 	padding-top: 0px;
 	padding-bottom: 20px;
 }
+.w1 h1{
+	font-size: 5em;
+	text-align: center;
+}
 .w2{
 	width: 100%;
 	height: 450px;
@@ -241,6 +245,18 @@ footer h3{
 	.producto{
 		font-size: 1em;
 	}
+	.w2,.w3,.w4{
+		height: 300px;
+	}
+	.w2{
+		padding-top: 80px;
+	}
+	.w3{
+		padding-top: 80px;
+	}
+	.w4{
+		padding-top: 30px;
+	}
 }
 
 @media (min-width: 501px) and (max-width: 767px){
@@ -255,9 +271,26 @@ footer h3{
 		overflow: auto;
 	}
 }
+}
+@media (min-width: 975px) and (max-width: 1200px){
+	.w1 h1{
+		font-size: 4em;
+	}
+}
 
+@media (min-width: 600px) and (max-width: 974px){
+	.w1 h1{
+		font-size: 3em;
+	}
+}
+@media (max-width: 599px){
+	.w1 h1{
+		font-size: 2em;
+	}
+}
 @media (max-width: 960px){
 	.w2,.w3,.w4{
 		background-size: 150% 100%;
 	}
 }
+
