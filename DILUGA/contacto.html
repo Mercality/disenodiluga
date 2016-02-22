@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Blueprint: Slide and Push Menus</title>
+		<meta name="description" content="Blueprint: Slide and Push Menus" />
+		<meta name="keywords" content="sliding menu, pushing menu, navigation, responsive, menu, css, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">		
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+	</head>
+
+	<body class="cbp-spmenu-push">
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+			<h3>Menu</h3>
+			<a href="portada.html">Inicio</a>
+			<a href="contacto.html">Contacto</a>
+			<a href="index.html">Productos</a>
+			<a href="filtros.html">Filtros</a>
+			<a href="drcare.html">Dr. Care</a>
+			<a href="pdv.html">PDV</a>
+			
+		</nav>
+		<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+			<h3>Menu</h3>
+			<a href="#">Celery seakale</a>
+			<a href="#">Dulse daikon</a>
+			<a href="#">Zucchini garlic</a>
+			<a href="#">Catsear azuki bean</a>
+			<a href="#">Dandelion bunya</a>
+			<a href="#">Rutabaga</a>
+		</nav>
+		
+		<!--CABECERA--> 
+		<header class="">
+			<div class="container-fluid logo">
+				
+				<di class="hidden-md hidden-lg boton-menu">
+			 			<button id="showLeftPush" class="btn btn-default" type="submit"><span class="glyphicon glyphicon-th-list" aria-hidden="true"></span></button>
+			 	</di>
+
+				<div class="logo-centrado col-md-4">
+					<a href="#" class=""><img src="lubricantesGallegos-01.png" width="220" alt=""></a>
+				</div>
+
+				<nav class="col-md-4 col-md-offset-4 hidden-sm hidden-xs">
+					<ul class="nav nav-pills nav-justified ">
+				  		<li class=""><a href="portada.html">Inicio</a></li>
+				  		<li><a href="index.html">Productos</a></li>
+				  		<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="container-fluid">
+				
+			<div class="mapa" id="googleMap">
+	
+			</div>
+			
+			
+			
+			
+			<div class="contacto">
+				<div class="arrow-before"></div>
+				
+				<div class="container">
+				<div class="col-md-5">
+					<form role="form">
+						<div class="form-group">
+					   		<label for="nombre">Nombre</label>
+					    	<input type="text" class="form-control" id="nombre"
+					           placeholder="Nombre">
+					  	</div>
+					  	<div class="form-group">
+					   		<label for="ejemplo_email_1">Email</label>
+					    	<input type="email" class="form-control" id="email"
+					           placeholder="Email">
+					  	</div>
+					  	<div class="form-group">
+					   		<label for="telefono">Telefono</label>
+					    	<input type="text" class="form-control" id="telefono"
+					           placeholder="Telefono">
+					  	</div>
+					  	<div class="form-group">
+					   		<label for="mensaje">Mensaje</label>
+					    	<textarea class="form-control" rows="10"></textarea>
+					  	</div>
+					  <button type="submit" class="btn btn-default">Enviar</button>
+					</form>
+				</div>
+				<div class="col-md-7">
+					<div class="">
+						<h1 class="text-center">Direccion de contacto</h1>
+					<p>Valle de la Pascua Edo. Guarico - Calle Real salida hacia Tucupido Galpon S/N al lado de E/S Los Gallegos</p>
+					</div>
+					<div class="col-md-6 tel">						
+							<h2 class="">Telefonos Locales</h2>
+							<h3 class="">0235-3422025</h3>
+							<h3 class="">0235-3422025</h3>
+							<h3 class="">0235-3413996</h3>
+							<h3 class="sinmargen">0235-3417080</h3>						
+					</div>
+					<div class="col-md-6">
+						
+					</div>
+				</div>
+			</div>
+			</div>
+
+			<footer class="container-fluid">
+				<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-4 col-sm-4">
+					<h3>Simón Ramirez</h3>
+					<address>
+					  <strong>Zona</strong><br>
+					  Caicara - Sombrero - Cabruta<br>
+					  <strong>Correo</strong> - mail@homail.com<br>
+					  <strong><abbr title="Telefono">Tel:</abbr></strong> 0414 355-2255
+					</address>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<h3>Carlos Magno</h3>
+					<address>
+					  <strong>Zona</strong><br>
+					  Caicara - Sombrero - Cabruta<br>
+					  <strong>Correo</strong> - mail@homail.com<br>
+					  <strong><abbr title="Telefono">Tel:</abbr></strong> 0414 355-2255
+					</address>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<h3>Victor Capa</h3>
+					<address>
+					  <strong>Zona</strong><br>
+					  Caicara - Sombrero - Cabruta<br>
+					  <strong>Correo</strong> - mail@homail.com<br>
+					  <strong><abbr title="Telefono">Tel:</abbr></strong> 0414 355-2255
+					</address>
+				</div>
+				</div>
+				<div class="clearfix"></div>
+					<h5 class="text-center">Distribuidora de Lubricantes Los Gallegos C.A</h5>
+				
+			</footer>
+		</div>
+	</body>
+
+<script src="js/modernizr.custom.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
+
+
+	<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script>
+			var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+				showLeftPush = document.getElementById( 'showLeftPush' ),
+				body = document.body;
+
+			
+			showLeftPush.onclick = function() {
+				classie.toggle( this, 'active' );
+				classie.toggle( body, 'cbp-spmenu-push-toright' );
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				disableOther( 'showLeftPush' );
+			};
+
+			function disableOther( button ) {
+				if( button !== 'showLeftPush' ) {
+					classie.toggle( showLeftPush, 'disabled' );
+				}
+			}
+		</script>
+
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(9.2157077,-66.00726),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
